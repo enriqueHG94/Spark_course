@@ -46,6 +46,7 @@ result = dataRDD.reduce(lambda x, y: x * y)
 # Genera un nuevo RDD con ['Python', 'Scala', 'Python', 'R', 'Python', 'Java', 'R' ]
 
 new_data = ['Python', 'Scala', 'Python', 'R', 'Python', 'Java', 'R' ]
+
 lenguajesRDD = sc.parallelize(new_data)
 
 # Cuenta cuantas veces aparece cada valor
