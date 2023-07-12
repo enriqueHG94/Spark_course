@@ -34,7 +34,7 @@
 - This code shows how to use the PySpark machine learning library to train a binary classification model, and how to use a pipeline to chain together various stages of pre-processing and training the model.
 - I have performed several operations with DataFrames, such as importing a CSV file, renaming a column, splitting the DataFrame into training and test sets, defining a model, a hot encoder, two feature assemblers and a scaler, setting up a multi-stage pipeline, fitting the model with the training data, transforming the data and saving the fitted model.
 
-### **Saprk Streaming exercise:**
+### **Spark Streaming exercise:**
 
 - This code shows how to use a pre-trained machine learning model to make streaming predictions with PySpark.
 - I have performed several operations with DataFrames, such as importing a CSV file, splitting the DataFrame into training and test sets, loading a previously trained model, transforming the data, selecting and displaying columns, writing the DataFrame to a directory, defining a streaming data source, transforming the streaming data source, and displaying or saving the streaming predictions.
